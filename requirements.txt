@@ -9,5 +9,6 @@ xgboost
 catboost
 imblearn
 python-dotenv
+certifi
 
 - e .
