@@ -10,5 +10,7 @@ catboost
 imblearn
 python-dotenv
 certifi
+PyYAML
+dill 
 
 - e .
