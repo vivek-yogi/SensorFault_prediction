@@ -9,5 +9,5 @@ class EnviornmentVariable:
     '''
     mongo_db_url: str = os.getenv('MONGO_DB_URL')
 
-env_var      = EnviornmentVariable()
+env_var      = EnviornmentVariable() # crating object of class EnviornmentVariable
 mongo_client = pymongo.MongoClient(env_var.mongo_db_url)
